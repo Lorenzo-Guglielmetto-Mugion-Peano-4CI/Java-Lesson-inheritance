@@ -38,3 +38,18 @@ SuperClasse **ContoBancario**
   - permettere di conoscere il valore del **fido** 
   - permettere di creare un nuovo **fido**
   - ridefinire il metodo **preleva** della **super-classe** --> è possibile prelevare una determinata somma di denaro da un conto con **fido** solo se questo presenta un bilancio (incluso il **fido**) sufficiente .
+  
+## DESCRIZIONE DELLA PARTE TEORICA:
+
+## EREDITARIETA':
+* Che cos'è: la possibilità di creare una cosiddetta sottoclasse (o classe derivata) che erediti gli attributi e i metodi di una superclasse (o classe madre);
+* A cosa serve: si utilizza per creare sottoclassi che possono includere nuovi metodi e attributi oltre a quelli già inseriti nella superclasse;
+* Come è stato utilizzato: in questo specifico progetto abbiamo creato la classe "ContoEsteso" facendole ereditare i metodi e gli attributi della classe "ContoBancario".
+
+## POLIMORFISMO:
+* Che cos'è: Il meccanismo secondo cui, in una sottoclasse, si possono sovrascrivere e modificare con il comando "@Overload" i metodi ereditati dalla superclasse, ridefinendoli con set di parametri diversi ;
+* A cosa serve: il polimorfismo si utilizza quando si vogliono ridefinire metodi già dichiarati nella superclasse da cui si ereditano, modificandone quindi il funzionamento;
+* Come è stato utilizzato: In questo progetto è stato ridefinito, nella classe derivata ContoEsteso, il metodo "preleva", già presente nella classe ContoBancario;
+
+## THIS:
+* La parola chiave "this" è utilizzata, in Java, per specificare l'oggetto corrente, preso in considerazione durante il tempo di esecuzione (RunTime). Questo comando è seguito da un punto (.), che permette di inserire, in seguito, l'attributi o il metodo riguardante l'oggetto corrente.
